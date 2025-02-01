@@ -1,0 +1,149 @@
+/* General reset for margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic body styling with background image */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: #333;
+}
+
+/* Container for consistent layout */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 123, 255, 0.9); /* Slight transparency to show background */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.brand {
+    text-align: left;
+}
+
+.brand h1 {
+    margin-bottom: 5px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Login Button Styling */
+.login-button {
+    background-color: #ff5100;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: #aa542d;
+}
+
+/* Register Button Styling */
+.register-button {
+    background-color: #ff5100;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.register-button:hover {
+    background-color: #aa542d;
+}
+
+/* Cart Button Styling */
+.cart-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Ensure no underline for Cart link */
+}
+
+.cart-button:hover {
+    background-color: #218838;
+    text-decoration: none; /* No underline on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgba(238, 246, 255, 0.9); /* Transparent background for better readability */
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Home Button */
+.home-button {
+    display: inline-block;
+    background-color: #ff5100;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home-button:hover {
+    background-color: #aa542d;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgba(51, 51, 51, 0.9); /* Slightly transparent footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .home-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}

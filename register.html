@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - OceanHarvest</title>
+    <link rel="stylesheet" href="register.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- FontAwesome for icons -->
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-box">
+            <h2>Register</h2>
+            <form action="Test-User Registration.php" method="POST">
+                <!-- Full Name Field -->
+                <div class="input-group">
+                    <i class="fas fa-user"></i> <!-- User icon -->
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                </div>
+
+                <!-- Email Field -->
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i> <!-- Email icon -->
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+
+                <!-- Address Field -->
+                <div class="input-group">
+                    <i class="fas fa-home"></i> <!-- Home icon -->
+                    <input type="text" name="add" id="add" placeholder="Address" required>
+                </div>
+
+                <!-- Phone Number Field -->
+                <div class="input-group">
+                    <i class="fas fa-phone"></i> <!-- Phone icon -->
+                    <input type="text" name="Pnum" id="Pnum" placeholder="Phone Number" required>
+                </div>
+
+                <!-- Password Field -->
+                <div class="input-group">
+                    <i class="fas fa-lock"></i> <!-- Password icon -->
+                    <input type="password" name="pass" id="pass" placeholder="Password" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn" name="register">Sign Up</button>
+
+                <!-- Login Link -->
+                <p class="login-link">Already have an account? <a href="loginhp.p">Log in now</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="cart .css"> <!-- Link to the Cart CSS file -->
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div class="header-buttons">
+            <a href="frontsite.php">
+                <button id="home-button" class="nav-button">Home</button> <!-- Add class 'nav-button' -->
+            </a>
+            <a href="productpage.html">
+                <button id="product-page-button" class="nav-button">Products</button> <!-- Add class 'nav-button' -->
+            </a>
+        </div>
+
+        <!-- <nav class="login-links">
+            <a href="user.html" class="login-button">User Login</a>
+            <a href="admin.html" class="login-button">Admin Login</a>
+        </nav> -->
+    </div>
+</header>
+
+<main>
+    <section class="cart-list">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div> <!-- Cart items will be dynamically loaded -->
+        <div id="cart-summary">
+            <p>Total Products: <span id="total-products">0</span></p>
+            <p>Total Amount: रू <span id="total-amount">0</span></p>
+        </div>
+        
+        <div class="cart-buttons">
+            <button id="continue-purchase">Continue to Purchase</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2025 OceanHarvest. All rights reserved. by Usesh-Thapa-Magar</p>
+    </div>
+</footer>
+
+<script src="cart.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Ocean Shop</title>
+    <link rel="stylesheet" href="admin.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Admin Login</h1>
+        <nav>
+            <ul>
+                <li><div class="nav-box"><a href="frontsite.html" class="nav-link">Home</a></div></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="admin-login">
+        <form name="form" action="register.php" onsubmit="return isvalid()" method="POST" >
+            <label for="a-email">Email:</label>
+            <input type="email" id="a-email" name="a-email" required>
+            <label for="a-pass">Password:</label>
+            <input type="password" id="a-pass" name="a-pass" required>
+            <button type="submit" name="login">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 OceanHarvest. All rights reserved. by Usesh-Thapa-Magar</p>
+    </footer>
+</body>
+</html>
